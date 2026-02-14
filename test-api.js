@@ -1,5 +1,5 @@
 
-const API_KEY = '579b464db66ec23bdd000001fd53cc14797541d66f07d4bd6fa71097';
+const API_KEY = '579b464db66ec23bdd00000183ea33e451a249846c470d0df74bbd6b';
 // Trying to use the catalog search API or a known resource if possible.
 // But first let's try the one I guessed.
 const RESOURCE_ID = '9ef84268-d588-465a-a308-a864a43d0070'; 

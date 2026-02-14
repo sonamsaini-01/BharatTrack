@@ -127,11 +127,10 @@ export const getAIResponse = async (query: string): Promise<{ text: string, cita
   await new Promise(resolve => setTimeout(resolve, 1000));
   const lowerQuery = query.toLowerCase();
   const providers: Citation[] = [
-    { source: 'India.gov.in', url: `https://search.india.gov.in/searchall.php?q=${encodeURIComponent(query)}`, date: new Date().toISOString().slice(0, 10) },
+    { source: 'India.gov.in', url: `https://www.india.gov.in/search/site/${encodeURIComponent(query)}`, date: new Date().toISOString().slice(0, 10) },
     { source: 'Indian Kanoon', url: `https://indiankanoon.org/search/?formInput=${encodeURIComponent(query)}`, date: new Date().toISOString().slice(0, 10) },
     { source: 'GST Council', url: 'https://gstcouncil.gov.in/', date: new Date().toISOString().slice(0, 10) },
     { source: 'NALSAR Library', url: 'https://library.nalsar.ac.in/', date: new Date().toISOString().slice(0, 10) },
-    { source: 'GitHub', url: `https://github.com/search?q=${encodeURIComponent(query)}`, date: new Date().toISOString().slice(0, 10) },
     { source: 'DataProvider.in', url: 'https://dataprovider.in/', date: new Date().toISOString().slice(0, 10) }
   ];
   const matchedEntry = KNOWLEDGE_BASE.find(entry =>

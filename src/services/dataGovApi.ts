@@ -1,5 +1,5 @@
 
-const API_KEY = '579b464db66ec23bdd000001fd53cc14797541d66f07d4bd6fa71097';
+const API_KEY = '579b464db66ec23bdd00000183ea33e451a249846c470d0df74bbd6b';
 const BASE_URL = 'https://api.data.gov.in/resource';
 
 // Default resource ID for GST related data (User might need to update this if they have a specific one)

@@ -17,7 +17,10 @@ const HomePage = () => {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="bg-primary text-white py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('../grid-pattern.svg')] opacity-10"></div>
+        <div 
+          className="absolute inset-0 opacity-10"
+          style={{ backgroundImage: `url(${new URL('/grid-pattern.svg', import.meta.url).href})` }}
+        ></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <div className="inline-flex items-center space-x-2 bg-blue-900/50 px-4 py-1.5 rounded-full mb-6 border border-blue-700">
             <span className="w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
