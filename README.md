@@ -1,4 +1,4 @@
-Deployed site is working on -https://sonamsaini-01.github.io/BharatTrack/
+Deployed site is working on -https://sonamsaini-01.github.io/BharatTrack/  (copy the link and paste in new tab).
 
 BharatTrack** is a specialized digital platform designed to provide verified, sourced, and real-time information regarding Indian financial regulations, legal acts, and government data.
 Its primary mission is to serve as a "Single Source of Truth" for citizens, businesses, and legal professionals.
